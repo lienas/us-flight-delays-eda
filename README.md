@@ -23,7 +23,7 @@ The analysis uses the **Reporting Carrier On-Time Performance** dataset publishe
 
 ## Summary of Findings
 
-The exploration produced 16 visualisations across univariate (6), bivariate (6) and multivariate (4) views. The most important findings:
+The exploration produced 18 visualisations across univariate (6), bivariate (7) and multivariate (5) views. The most important findings:
 
 1. **Most flights are on time.** Only ~18 % of flights arrive ≥ 15 min late (the official BTS *delayed* threshold); the median flight even arrives 5 min early because carriers pad their schedules.
 2. **The arrival-delay distribution is strongly right-skewed**, not log-normal: the mode sits at ~4–5 minutes with a secondary plateau at 15–30 min and a long tail that decays steadily up to several hours.
@@ -61,7 +61,7 @@ The take-aways slide condenses these into one practical sentence:
 
 | Path | Description |
 |---|---|
-| `Project Files/Part_I_exploration_flight_delays.ipynb` | Part I exploration notebook (16 plots, full QVO structure) |
+| `Project Files/Part_I_exploration_flight_delays.ipynb` | Part I exploration notebook (18 plots incl. bivariate boxplot & multivariate facet plot, full QVO structure) |
 | `Project Files/Part_II_slide_deck_flight_delays.ipynb` | Part II explanatory slide deck (Jupyter source) |
 | `Project Files/Part_II_slide_deck_flight_delays.slides.html` | Rendered slide deck (RISE/reveal.js HTML) |
 | `README.md` | This file |
