@@ -61,9 +61,9 @@ The take-aways slide condenses these into one practical sentence:
 
 | Path | Description |
 |---|---|
-| `Project Template/Part_I_exploration_flight_delays.ipynb` | Part I exploration notebook (16 plots, full QVO structure) |
-| `Project Template/Part_II_slide_deck_flight_delays.ipynb` | Part II explanatory slide deck (Jupyter source) |
-| `Project Template/Part_II_slide_deck_flight_delays.slides.html` | Rendered slide deck (RISE/reveal.js HTML) |
+| `Project Files/Part_I_exploration_flight_delays.ipynb` | Part I exploration notebook (16 plots, full QVO structure) |
+| `Project Files/Part_II_slide_deck_flight_delays.ipynb` | Part II explanatory slide deck (Jupyter source) |
+| `Project Files/Part_II_slide_deck_flight_delays.slides.html` | Rendered slide deck (RISE/reveal.js HTML) |
 | `README.md` | This file |
 | `Data/airline_2m.csv` | Raw dataset (BTS, 2 M flights, 1987–2020). **Not tracked in git** (~880 MB, exceeds GitHub's 100 MB file-size limit). Download instructions below. |
 | `background/eda-phases.md` | Generic background note on the four EDA phases (workflow draft for a future blog post; not part of the submission) |
@@ -93,14 +93,14 @@ Download `airline_2m.csv` from the official BTS *On-Time* archive (or the Kaggle
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook "Project Template/Part_I_exploration_flight_delays.ipynb"
+jupyter notebook "Project Files/Part_I_exploration_flight_delays.ipynb"
 ```
 
 ### Re-rendering the slide deck
 
 ```bash
 source .venv/bin/activate
-jupyter nbconvert "Project Template/Part_II_slide_deck_flight_delays.ipynb" \
+jupyter nbconvert "Project Files/Part_II_slide_deck_flight_delays.ipynb" \
     --to slides --no-input --no-prompt --execute
 ```
 
