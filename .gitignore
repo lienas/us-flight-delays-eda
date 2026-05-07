@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large raw datasets (exceed GitHub's 100 MB file-size limit)
+Data/*.csv
+Data/*.xlsx
+!Data/.gitkeep
+
+# Local IDE configuration
+.vscode/
+.idea/
+
+# Udacity course material (copyrighted, kept locally only)
+Instructions/
+Example Project/
